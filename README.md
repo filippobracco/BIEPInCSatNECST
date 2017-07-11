@@ -14,16 +14,16 @@ OpenCV application is executed and accelerated on a PYNQ-Z1 board, using Python 
 
 /Software Implementation/ - location of video acquisition, full software implementation source code 
 
--> /Assets/ - needed assets with also a sample of aquired video 
--> /C++/ - C++ projects both unoptimized and using optimized search
--> /Python/ - first draft application in Python 3
+-> /Assets/ - needed assets with also a sample of aquired video  
+-> /C++/ - C++ projects both unoptimized and using optimized search  
+-> /Python/ - first draft application in Python 3  
 
 /Hardware Implementation/ - location of full hardware accelerated application source code 
 
--> /IP/ - contains Vivado HLS core sources (including c code)
--> /overlay/ - contains  overlay of implemented design
--> /wrapper/ - contains the python module which allows to call hardware accelerator
--> /wrapper/test/ - an example of how to use module, with also a image of eye
+-> /IP/ - contains Vivado HLS core sources (including c code)  
+-> /overlay/ - contains  overlay of implemented design  
+-> /wrapper/ - contains the python module which allows to call hardware accelerator  
+-> /wrapper/test/ - an example of how to use module, with also a image of eye  
 
 /Data Analysis/ - location of MATLAB source code used to analyse and plot data
 
