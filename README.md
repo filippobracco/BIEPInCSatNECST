@@ -6,7 +6,7 @@
 
 ## Brief description of project:
 Concussion is the leading cause of death among young people under 40 years in industrialized countries. Due to this high incidence it is fundamental to optimally diagnose this disease.  
-Aim of the project is accelerate on FPGA of an OpenCV application for pupillometry measurement, in order to help the neurological assessment. Thanks to the pupil detection and tracking, the pupillometer allows to estimate pupil diameter and  reactivity to light (photopupillary  reflex) in a much more accurate and faster way than a doctor's human eye can do.This will provide accurate values to evaluate the seriousness of a Traumatic Brain Injury (TBI).
+Aim of the project is accelerate on FPGA of an OpenCV application for pupillometry measurement, in order to help the neurological assessment. Thanks to the pupil detection and tracking, the pupillometer allows to estimate pupil diameter and  reactivity to light (photopupillary reflex) in a much more accurate and faster way than a doctor's human eye can do.This will provide accurate values to evaluate the seriousness of a Traumatic Brain Injury (TBI).
 OpenCV application is executed and accelerated on a PYNQ-Z1 board, using Python 3 and a Jupyter notebook.
 
 
