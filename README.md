@@ -1,4 +1,4 @@
-##Pupil tracking algorithm software implementation and hardware FPGA-based acceleration for identification and evaluation of Traumatic Brain Injury
+# Pupil tracking algorithm software implementation and hardware FPGA-based acceleration for identification and evaluation of Traumatic Brain Injury
 
 **Authors:** Bracco Filippo and Di Vece Chiara 
 
@@ -13,11 +13,13 @@ OpenCV application is executed and accelerated on a PYNQ-Z1 board, using Python 
 ## Description of archive (explain directory structure, documents and source files):
 
 /Software Implementation/ - location of video acquisition, full software implementation source code 
+
 -> /Assets/ - needed assets with also a sample of aquired video 
 -> /C++/ - C++ projects both unoptimized and using optimized search
 -> /Python/ - first draft application in Python 3
 
 /Hardware Implementation/ - location of full hardware accelerated application source code 
+
 -> /IP/ - contains Vivado HLS core sources (including c code)
 -> /overlay/ - contains  overlay of implemented design
 -> /wrapper/ - contains the python module which allows to call hardware accelerator
@@ -28,7 +30,7 @@ OpenCV application is executed and accelerated on a PYNQ-Z1 board, using Python 
 
 ## Instructions to build and test the project
 
-###Software Implementation
+### Software Implementation
 
 **Third parties:**
 
@@ -37,7 +39,7 @@ OpenCV application is executed and accelerated on a PYNQ-Z1 board, using Python 
 
 Once installed third parties application can be executed; be sure that Assets folder path is correct in source code.
 
-###Hardware Implementation
+### Hardware Implementation
 
 **Board used:** PYNQ-Z1
 
